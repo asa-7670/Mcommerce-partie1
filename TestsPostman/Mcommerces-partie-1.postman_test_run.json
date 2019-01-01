@@ -1,0 +1,183 @@
+{
+	"id": "57c33cc1-4fc3-4ffc-9b52-a44f0a081678",
+	"name": "Mcommerces-partie-1",
+	"allTests": [],
+	"timestamp": "2019-01-01T09:51:13.677Z",
+	"collection_id": "9a5c0831-384b-4e26-aa32-484bab035966",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "9a5c0831-384b-4e26-aa32-484bab035966",
+		"name": "Mcommerces-partie-1",
+		"description": "",
+		"auth": null,
+		"events": [
+			{
+				"listen": "prerequest",
+				"script": {
+					"id": "e9131691-add5-40d4-a82b-a084ff3d239f",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			},
+			{
+				"listen": "test",
+				"script": {
+					"id": "079248b5-04ea-402b-a33d-a3f244b28240",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			}
+		],
+		"variables": [],
+		"order": [
+			"5b4293b4-1ce5-4f41-a055-b27d6670134d",
+			"44b16205-d5fe-4104-87c6-e9edcab04a8e",
+			"ab3975c6-72e6-48e3-a3cc-f8095fdeec42"
+		],
+		"folders_order": [],
+		"owner": "543144",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "http://localhost:9090/Produits",
+			"id": "5b4293b4-1ce5-4f41-a055-b27d6670134d",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"245"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "245",
+			"totalRequestTime": "245",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:9090/AdminProduits",
+			"id": "44b16205-d5fe-4104-87c6-e9edcab04a8e",
+			"url": "http://localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"62"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "62",
+			"totalRequestTime": "62",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:9090/Produits/sortByNom",
+			"id": "ab3975c6-72e6-48e3-a3cc-f8095fdeec42",
+			"url": "http://localhost:9090/Produits/sortByNom",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"38"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "38",
+			"totalRequestTime": "38",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 345,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://localhost:9090/Produits",
+			"id": "5b4293b4-1ce5-4f41-a055-b27d6670134d",
+			"url": "http://localhost:9090/Produits",
+			"time": "2019-01-01T09:51:13.677Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:9090/AdminProduits",
+			"id": "44b16205-d5fe-4104-87c6-e9edcab04a8e",
+			"url": "http://localhost:9090/AdminProduits",
+			"time": "2019-01-01T09:51:13.677Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:9090/Produits/sortByNom",
+			"id": "ab3975c6-72e6-48e3-a3cc-f8095fdeec42",
+			"url": "http://localhost:9090/Produits/sortByNom",
+			"time": "2019-01-01T09:51:13.677Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
